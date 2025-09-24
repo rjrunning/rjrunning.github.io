@@ -1,0 +1,13 @@
+---
+title: reels
+layout: default
+---
+<h1>Latest Reels</h1>
+
+<ul>
+  {% for reel in site.reels %}
+    <li>
+      {{ reel | markdownify }}
+    </li>
+  {% endfor %}
+</ul>

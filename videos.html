@@ -1,0 +1,13 @@
+---
+title: Videos
+layout: default
+---
+<h1>Latest Videos</h1>
+
+<ul>
+  {% for video in site.videos %}
+    <li>
+      {{ video | markdownify }}
+    </li>
+  {% endfor %}
+</ul>

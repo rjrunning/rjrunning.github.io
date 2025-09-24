@@ -1,0 +1,13 @@
+---
+title: Releases
+layout: default
+---
+<h1>Latest Releases</h1>
+
+<ul>
+  {% for release in site.releases %}
+    <li>
+      {{ release | markdownify }}
+    </li>
+  {% endfor %}
+</ul>

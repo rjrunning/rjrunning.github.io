@@ -1,0 +1,22 @@
+<div class="navbar">
+  {% for item in site.data.navigation %}
+      {% if item.link %}
+         <a href="{{ item.link }}"{% if page.url == item.link %} class="current"{% endif %}>{{ item.name }}</a>
+      {% endif %}
+      {% if item.subnav %}
+         <div class="subnav">
+           <button class="subnavbtn">{{ item.name }}<i class="fa fa-caret-down"></i></button>
+           <div class="subnav-content">
+             {% for subitem in item.subnav %}
+                {% if subitem.class %}
+                  <span class="tooltip" ><a href="{{ subitem.link }}"  class="{{ subitem.class }}"></a></span>
+                    <span class="tooltiptext">blah blah blah </span>
+                {% else %} 
+                  <a href="{{ subitem.link }}">{{ subitem.name }}</a>
+                {% endif %}
+              {% endfor %}
+           </div>
+        </div>
+      {% endif %}
+  {% endfor %}
+</div>

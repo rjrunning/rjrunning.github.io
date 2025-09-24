@@ -1,0 +1,44 @@
+- name: Home
+  link: /
+- name: Bob
+  link: /about.html
+- name: Events
+  link: /events.html
+- name: Contact
+  link: /contact.html
+- name: More
+  subnav:
+    - name: Releases
+      link: /releases.html
+    - name: Video
+      link: /videos.html
+    - name: Reels
+      link: /reels.html
+    - name: Playlist
+      link: /Playlist.html
+- name: Social
+  subnav: 
+    - name: facebook
+      class: fa fa-facebook
+      link: https://www.facebook.com/profile.php?id=61579786356251&sk=about
+    - name: youtube
+      class: fa fa-youtube
+      link: https://www.youtube.com/@rjrunning
+    - name: instagram
+      class: fa fa-instagram
+      link: https://www.instagram.com/running.robert/
+    - name: tumblir
+      class: fa fa-tumblr
+      link: https://www.tumblr.com/blog/rjrunning-blog
+    - name: soundcloud
+      class: fa fa-soundcloud
+      link: https://soundcloud.com/robert-running
+    - name: buymeacoffee
+      class: fa fa-coffee
+      link: https://buymeacoffee.com/rjrunningQ
+    - name: tiktok
+      class: fa fa-cloud
+      link: https://www.tiktok.com/@robertrunning745
+    - name: bandcamp
+      class: fa fa-bandcamp
+      link: https://bobrunning.bandcamp.com/

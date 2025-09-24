@@ -1,0 +1,21 @@
+collections:
+  - releases
+  - videos
+  - reels
+
+defaults:
+  - scope:
+      path: "releases"
+      type: "releases"
+    values:
+      layout: "release"
+  - scope:
+      path: "reels"
+      type: "reels"
+    values:
+      layout: "reel"
+  - scope:
+      path: "videos"
+      type: "videos"
+    values:
+      layout: "video"
