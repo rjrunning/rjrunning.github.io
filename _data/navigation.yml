@@ -15,7 +15,7 @@
     - name: Reels
       link: /reels.html
     - name: Playlist
-      link: /Playlist.html
+      link: /playlist.html
 - name: Social
   subnav: 
     - name: facebook
