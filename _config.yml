@@ -21,3 +21,6 @@ defaults:
       layout: "video"
 
 root: /
+
+baseurl: /
+url: https://rjrunning.github.io
