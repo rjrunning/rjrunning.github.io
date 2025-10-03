@@ -3,11 +3,25 @@
 <h1>{{ page.title }}</h1>
 <img src="assets/images/{{ page.cover-image }}" />
 <p>
-  {% if released %}
+  {% if page.released %}
     {{ page.release-type }} released {{ page.release-date}}
   {% else %}
     New {{ page.release-type }} coming soon! Release date {{ page.release-date }}
   {% endif %}
 </p>
+<p>
+  {% if page.spotify %}
+    <a href="{{ page.spotify }}" class="fa fa-spotify"></a>
+  {% endif %} 
+  {% if page.apple %}
+    <a href="{{ page.apple }}" class="fa fa-apple"></a>
+  {% endif %}  
+  {% if page.amazon %}
+    <a href="{{ page.amazon }}" class="fa fa-amazon"></a>
+  {% endif %}  
+  {% if page.youtube %}
+    <a href="{{ page.youtube }}" class="fa fa-youtube"></a>
+  {% endif %}        
+</p>
+
 <p>------------------------------------</p>
-{{ content }}
