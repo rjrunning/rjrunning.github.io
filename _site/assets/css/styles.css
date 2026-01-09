@@ -101,7 +101,7 @@ ul {
 }
 
 .title {
-  font-size: 5vw;
+  font-size: 80px;
   position: absolute;
   top: 30%;
   left: 20%;
@@ -109,7 +109,7 @@ ul {
 }
 
 .subtitle {
-  font-size: 3vw;
+  font-size: 40px;
   position: absolute;
   bottom: 20%;
   right: 20%;
