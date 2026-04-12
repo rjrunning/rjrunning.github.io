@@ -110,18 +110,18 @@ ul {
 }
 
 .title {
-  font-size: 80px;
+  font-size: 8vw;
   position: absolute;
-  top: 30%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+  top: 10vw;
+  left: 30vw;
+
 }
 
 .subtitle {
-  font-size: 40px;
+  font-size: 4vw;
   position: absolute;
-  bottom: 20%;
-  right:20%;
+  bottom: 20vw;
+  right:20vw;
 }
 
 
@@ -258,3 +258,12 @@ ul {
   visibility: visible;
 }
 
+.hero-image {
+  background-image: url("/w3images/photographer.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
