@@ -113,13 +113,9 @@ ul {
   font-size: 8vw;
   position: absolute;
   top: 10vw;
-<<<<<<< HEAD
   left: 30vw;
-
-=======
   left: 20vw;
   transform: translate(-50%, -50%);
->>>>>>> c29b042ce934f4a70e70480bce4e99973ee8744f
 }
 
 .subtitle {
@@ -263,12 +259,104 @@ ul {
   visibility: visible;
 }
 
-.hero-image {
-  background-image: url("/w3images/photographer.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
+/* Cover Image */
+.cover-image {
+  background-image: url('assets/images/main-image.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;  
   background-size: cover;
-  position: relative;
+}
+
+// Styling for the masthead
+header.masthead {
+    // TIP: Background images are set within the HTML using inline CSS!
+    margin-bottom: 50px;
+    background: no-repeat center center;
+    background-color: gray;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: gray;
+        opacity: 0.5;
+    }
+
+    .page-heading,
+    .post-heading,
+    .site-heading {
+        padding: 200px 0 150px;
+        color: white;
+
+        @media only screen and (min-width: 768px) {
+            padding: 200px 0;
+        }
+    }
+
+    .page-heading,
+    .site-heading {
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+            margin-top: 0;
+        }
+
+        .subheading {
+            font-size: 24px;
+            font-weight: 300;
+            line-height: 1.1;
+            display: block;
+            margin: 10px 0 0;
+        }
+
+        @media only screen and (min-width: 768px) {
+            h1 {
+                font-size: 80px;
+            }
+        }
+    }
+
+    .post-heading {
+        h1 {
+            font-size: 35px;
+        }
+
+        .meta,
+        .subheading {
+            line-height: 1.1;
+            display: block;
+        }
+
+        .subheading {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px 0 30px;
+        }
+
+        .meta {
+            font-size: 20px;
+            font-weight: 300;
+            font-style: italic;
+
+            a {
+                color: white;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            h1 {
+                font-size: 55px;
+            }
+
+            .subheading {
+                font-size: 30px;
+            }
+        }
+    }
 }
