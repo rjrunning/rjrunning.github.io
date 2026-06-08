@@ -5,9 +5,11 @@ layout: default
 <h1>Latest Releases</h1>
 
 <ul>
-  {% for release in site.releases %}
+  {% for release in site.releases reversed %}
     <li>
       {{ release | markdownify }}
     </li>
   {% endfor %}
 </ul>
+
+{{ content }}
