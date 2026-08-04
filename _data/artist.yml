@@ -1,0 +1,13 @@
+name: Bob Running
+
+tagline: Gritty Americana <br> <span> from the Banks of the Ohio </span>
+
+location: Northern Kentucky / Cincinnati
+
+booking_email: bob.running@bobrunning.com
+
+genres:
+  - Americana
+  - Country
+  - Blues
+  - Rock
