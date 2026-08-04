@@ -7,20 +7,15 @@
 - name: Shows
   link: /events.html
 
+- name: Music
+  link: /releases.html
+
+- name: Videos
+  link" /videos.html
+
 - name: Book Bob
   link: /book/
 
-- name: More
-  subnav:
-    - name: Releases
-      link: /releases.html
-    - name: Video
-      link: /videos.html
-    - name: Reels
-      link: /reels.html
-    - name: Playlist
-      link: /playlist.html
-      
 - name: Social
   subnav: 
     - name: facebook
