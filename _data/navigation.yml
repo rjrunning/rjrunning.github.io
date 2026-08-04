@@ -8,7 +8,7 @@
   link: /events.html
 
 - name: Book Bob
-  link: /contact.html
+  link: /book/
 
 - name: More
   subnav:
@@ -33,7 +33,7 @@
       class: fa fa-instagram
       link: https://www.instagram.com/running.robert/
     - name: tumblir
-      class: fa fa-tumblr
+      class: fa fa-tumbr
       link: https://www.tumblr.com/blog/rjrunning-blog
     - name: soundcloud
       class: fa fa-soundcloud
