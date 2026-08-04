@@ -1,5 +1,5 @@
 title: Bob Running
-description: Singer Songwriter
+description: Gritty Americana from the Banks of the Ohio
 
 collections:
   - releases
@@ -26,5 +26,5 @@ defaults:
 
 root: /
 
-baseurl: /
-url: https://rjrunning.github.io
+url: https://bobrunning.com
+baseurl: ""
