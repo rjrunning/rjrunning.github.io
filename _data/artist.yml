@@ -4,10 +4,8 @@ tagline: Gritty Americana <br> <span> from the Banks of the Ohio </span>
 
 location: Northern Kentucky / Cincinnati
 
-booking_email: bob.running@bobrunning.com
+genre: Americana
 
-genres:
-  - Americana
-  - Country
-  - Blues
-  - Rock
+description: >
+  Road-worn songs with country roots,
+  blues soul, and rock-and-roll heart.
