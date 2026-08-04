@@ -2,23 +2,85 @@
 layout: default
 ---
 
-<!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ site.title }}</h1>
-            {% if site.description %}
-            <span class="subheading">{{ site.description }}</span>
-            {% endif %}
-          </div>
-        </div>
-      </div>
+<header
+  class="home-hero"
+  {% if page.background %}
+  style="background-image:
+    linear-gradient(
+      90deg,
+      rgba(15, 13, 11, 0.88) 0%,
+      rgba(15, 13, 11, 0.62) 48%,
+      rgba(15, 13, 11, 0.18) 100%
+    ),
+    url('{{ page.background | relative_url }}');"
+  {% endif %}
+>
+  <div class="home-hero__content">
+    <p class="home-hero__eyebrow">
+      Northern Kentucky / Cincinnati
+    </p>
+
+    <h1>Bob Running</h1>
+
+    <p class="home-hero__tagline">
+      Gritty Americana<br>
+      <span>from the Banks of the Ohio</span>
+    </p>
+
+    <p class="home-hero__description">
+      Road-worn songs with country roots, blues soul,
+      and rock-and-roll heart.
+    </p>
+
+    <div class="home-hero__actions">
+      <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+        Book Bob
+      </a>
+
+      <a class="button button--secondary" href="{{ '/releases.html' | relative_url }}">
+        Listen
+      </a>
     </div>
-  </header>
+  </div>
+</header>
+
+<main class="home-main">
+  <section class="home-intro" aria-labelledby="home-intro-title">
+    <p class="section-kicker">Solo acoustic performances</p>
+
+    <h2 id="home-intro-title">
+      Songs shaped by river towns, back roads, and lives lived between them.
+    </h2>
+
+    <p>
+      Bob Running blends Americana, country, blues, and rock into a
+      stripped-down live show built around honest songwriting, expressive
+      guitar work, and a strong sense of place.
+    </p>
+
+    <div class="home-intro__links">
+      <a href="{{ '/events.html' | relative_url }}">Upcoming shows</a>
+      <a href="{{ '/about.html' | relative_url }}">About Bob</a>
+      <a href="{{ '/videos.html' | relative_url }}">Watch live</a>
+    </div>
+  </section>
+
+  <section class="home-booking" aria-labelledby="home-booking-title">
+    <div>
+      <p class="section-kicker">Now booking</p>
+
+      <h2 id="home-booking-title">
+        Bring gritty Americana to your venue.
+      </h2>
+
+      <p>
+        Available for taverns, breweries, restaurants, festivals,
+        songwriter nights, private events, and listening rooms.
+      </p>
+    </div>
+
+    <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+      Request availability
+    </a>
+  </section>
+</main>
