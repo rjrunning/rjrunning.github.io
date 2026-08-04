@@ -63,45 +63,6 @@ ul {
     }
   }
 }
-.subnav {
-  float: left;
-  overflow: hidden;
-  .subnavbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: $color_1;
-    padding: 14px 16px;
-    background-color: $background-color_1;
-    font-family: $font-family_1;
-    margin: 0;
-  }
-  &:hover {
-    .subnavbtn {
-      background-color: $background-color_3;
-    }
-    .subnav-content {
-      display: block;
-    }
-  }
-}
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: $background-color_3;
-  width: 100%;
-  z-index: 1;
-  a {
-    float: left;
-    color: $color_1;
-    text-decoration: none;
-    &:hover {
-      background-color: $background-color_4;
-      color: $color_2;
-    }
-  }
-}
 
 .container {
   position: relative;
