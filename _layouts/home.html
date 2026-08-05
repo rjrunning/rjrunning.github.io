@@ -32,7 +32,7 @@ layout: default
     </p>
 
     <div class="home-hero__actions">
-      <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+      <a class="button button--primary" href="{{ '/book/' | relative_url }}">
         Book Bob
       </a>
 
@@ -44,6 +44,10 @@ layout: default
 </header>
 
 <main class="home-main">
+
+{% assign show = site.data.next_show %}
+
+  
   <section class="home-intro" aria-labelledby="home-intro-title">
     <p class="section-kicker">Solo acoustic performances</p>
 
@@ -78,7 +82,7 @@ layout: default
       </p>
     </div>
 
-    <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+    <a class="button button--primary" href="{{ '/book/' | relative_url }}">
       Request availability
     </a>
   </section>
