@@ -1,15 +1,6 @@
 - name: Home
   link: /
 
-- name: Shows
-  link: /events.html
-
-- name: Music
-  link: /releases.html
-
-- name: Videos
-  link: /videos.html
-
 - name: EPK
   link: /epk/
 
