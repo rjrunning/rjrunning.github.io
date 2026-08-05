@@ -1,0 +1,22 @@
+<section class="featured-release">
+  <div class="featured-release__content">
+    <p class="section-kicker">Now Playing</p>
+
+    <h2>{{ site.data.featured.featured_release.title }}</h2>
+
+    <p>
+      {{ site.data.featured.featured_release.description }}
+    </p>
+  </div>
+
+  <iframe
+      style="border-radius:12px"
+      src="https://open.spotify.com/embed/{{ site.data.featured.featured_release.spotify_type }}/{{ site.data.featured.featured_release.spotify_id }}"
+      width="100%"
+      height="352"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy">
+  </iframe>
+</section>
