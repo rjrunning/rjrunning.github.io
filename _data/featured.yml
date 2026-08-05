@@ -1,7 +1,9 @@
 hero_image: bob-running-hero.jpg
 
-featured_video:
-
-featured_album:
-
-featured_song:
+featured_release:
+  title: Corner Store
+  type: Single
+  spotify_id: 0d57ibiZQ6zEchP2xeyZxW
+  spotify_type: album
+  description: >
+    A slice of gritty Americana from the banks of the Ohio.
