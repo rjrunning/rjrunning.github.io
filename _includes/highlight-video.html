@@ -1,0 +1,50 @@
+{% assign video = site.data.highlight_video %}
+
+<section class="highlight-video" aria-labelledby="highlight-video-title">
+  <div class="highlight-video__heading">
+    <p class="section-kicker">{{ video.eyebrow }}</p>
+    <h2 id="highlight-video-title">{{ video.title }}</h2>
+  </div>
+
+  {% if video.enabled and video.youtube_id %}
+    <div class="highlight-video__frame">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/{{ video.youtube_id }}"
+        title="{{ video.title | escape }}"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  {% else %}
+    <div
+      class="highlight-video__placeholder"
+      style="
+        background-image:
+          linear-gradient(
+            rgba(15, 13, 11, 0.48),
+            rgba(15, 13, 11, 0.88)
+          ),
+          url('{{ video.placeholder_image | relative_url }}');
+      "
+    >
+      <div class="highlight-video__placeholder-content">
+        <span class="highlight-video__play" aria-hidden="true">▶</span>
+
+        <h3>{{ video.placeholder_heading }}</h3>
+
+        <p>{{ video.placeholder_text }}</p>
+
+        <div class="highlight-video__actions">
+          <a class="button button--primary" href="{{ '/epk/' | relative_url }}">
+            View EPK
+          </a>
+
+          <a class="button button--secondary" href="{{ '/book/' | relative_url }}">
+            Book Bob
+          </a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
