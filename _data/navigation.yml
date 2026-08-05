@@ -1,11 +1,11 @@
 - name: Home
   link: /
 
-- name: Bob
-  link: /about.html
-  
 - name: EPK
   link: /epk/
 
 - name: Book Bob
   link: /book/
+
+- name: About Bob
+  link: /about.html
