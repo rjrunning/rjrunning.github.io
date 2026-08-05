@@ -1,9 +1,6 @@
 - name: Home
   link: /
 
-- name: Bob
-  link: /about.html
-
 - name: Shows
   link: /events.html
 
@@ -18,3 +15,6 @@
 
 - name: Book Bob
   link: /book/
+
+- name: About Bob
+  link: /about.html
