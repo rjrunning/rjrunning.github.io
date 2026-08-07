@@ -1,13 +1,9 @@
-enabled: false
+enabled: true
 
 title: Bob Running Live
 eyebrow: Highlight Reel
 
-youtube_id:
-
-
-video.youtube_id: 24DPyL1kvOY?is=vwvD2Vpad3qcFFrp
-video.title: highlight
+youtube_id: 24DPyL1kvOY?is=vwvD2Vpad3qcFFr
 
 placeholder_heading: The trailer is coming.
 placeholder_text: >
