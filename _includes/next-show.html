@@ -1,0 +1,40 @@
+{% assign show = site.data.next_show %}
+
+<section class="next-show">
+
+{% if show.enabled %}
+
+  <p class="section-kicker">Next Show</p>
+
+  <h2>{{ show.date }}</h2>
+
+  <p>
+    {{ show.time }}<br>
+    {{ show.venue }}<br>
+    {{ show.city }}
+  </p>
+
+  <a class="button button--primary"
+     href="{{ show.link }}">
+     {{ show.button }}
+  </a>
+
+{% else %}
+
+  <p class="section-kicker">Live Music</p>
+
+  <h2>{{ show.message }}</h2>
+
+  <p>
+    Follow Bob Running for upcoming performances,
+    new music, and special events.
+  </p>
+
+  <a class="button button--primary"
+     href="{{ show.link }}">
+     {{ show.button }}
+  </a>
+
+{% endif %}
+
+</section>

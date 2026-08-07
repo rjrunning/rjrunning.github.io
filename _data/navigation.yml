@@ -1,20 +1,11 @@
 - name: Home
   link: /
 
-- name: Bob
-  link: /about.html
-
-- name: Shows
-  link: /events.html
-
-- name: Music
-  link: /releases.html
-
-- name: Videos
-  link: /videos.html
-
 - name: EPK
   link: /epk/
 
 - name: Book Bob
   link: /book/
+
+- name: About Bob
+  link: /about.html

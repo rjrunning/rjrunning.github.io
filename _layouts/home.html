@@ -32,7 +32,7 @@ layout: default
     </p>
 
     <div class="home-hero__actions">
-      <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+      <a class="button button--primary" href="{{ '/book/' | relative_url }}">
         Book Bob
       </a>
 
@@ -43,7 +43,12 @@ layout: default
   </div>
 </header>
 
+{% include next-show.html %}
+{% include featured-release.html %}
+{% include highlight-video.html %}
+
 <main class="home-main">
+  
   <section class="home-intro" aria-labelledby="home-intro-title">
     <p class="section-kicker">Solo acoustic performances</p>
 
@@ -57,11 +62,6 @@ layout: default
       guitar work, and a strong sense of place.
     </p>
 
-    <div class="home-intro__links">
-      <a href="{{ '/events.html' | relative_url }}">Upcoming shows</a>
-      <a href="{{ '/about.html' | relative_url }}">About Bob</a>
-      <a href="{{ '/videos.html' | relative_url }}">Watch live</a>
-    </div>
   </section>
 
   <section class="home-booking" aria-labelledby="home-booking-title">
@@ -78,7 +78,7 @@ layout: default
       </p>
     </div>
 
-    <a class="button button--primary" href="{{ '/contact.html' | relative_url }}">
+    <a class="button button--primary" href="{{ '/book/' | relative_url }}">
       Request availability
     </a>
   </section>
