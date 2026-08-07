@@ -80,35 +80,9 @@ permalink: /epk/
     class="epk-section epk-feature"
     aria-labelledby="epk-music-title"
   >
-    <div class="epk-section__heading">
-      <p class="section-kicker">Featured music</p>
-      <h2 id="epk-music-title">Listen</h2>
-    </div>
 
-    <div class="epk-feature__grid">
-      <div class="epk-feature__copy">
-        <p>
-          Explore Bob Running's released music, including original Americana,
-          country, blues, and rock.
-        </p>
+    {% include featured-release.html %}
 
-          {% include featured-release.html %}
-        
-          Explore the music
-        </a>
-      </div>
-
-      <div class="epk-song-list">
-        <p class="epk-song-list__label">Selected songs</p>
-
-        <ul>
-          <li>God's Honky-Tonk</li>
-          <li>Ask Me If I Give a Damn</li>
-          <li>Dark Night</li>
-          <li>Alone</li>
-        </ul>
-      </div>
-    </div>
   </section>
 
   <section
@@ -118,14 +92,10 @@ permalink: /epk/
   >
     <div class="epk-section__heading">
       <p class="section-kicker">Solo acoustic performance</p>
-      <h2 id="epk-video-title">Watch Live</h2>
     </div>
 
     <div class="epk-video-card">
       <div class="epk-video-card__copy">
-        <p>
-          See live performances and video releases from Bob Running.
-        </p>
         
         {% include highlight-video.html %}
         
