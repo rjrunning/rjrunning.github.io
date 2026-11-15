@@ -2,14 +2,14 @@
 title: Releases
 layout: default
 ---
-<h1>Latest Releases</h1>
+<main class="releases-page">
+  <h1>Latest Releases</h1>
 
-<ul>
-  {% for release in site.releases reversed %}
-    <li>
-      {{ release | markdownify }}
-    </li>
-  {% endfor %}
-</ul>
-
-{{ content }}
+  <div class="release-grid">
+    {% for release in site.releases reversed %}
+      <article class="release-card">
+        {{ release | markdownify }}
+      </article>
+    {% endfor %}
+  </div>
+</main>

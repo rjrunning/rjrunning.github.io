@@ -1211,3 +1211,38 @@ header.masthead {
     transition: none;
   }
 }
+
+/* Release catalog */
+.releases-page {
+  width: calc(100% - 2.5rem);
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4rem) 0;
+}
+
+.release-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1.5rem;
+}
+
+.release-card {
+  min-width: 0;
+  padding: 1.25rem;
+  border: 1px solid rgba(208, 166, 109, 0.35);
+  background: $surface;
+  overflow-wrap: anywhere;
+}
+
+.release-card h2 {
+  margin-top: 0;
+  font-family: "Smythe", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.release-card__cover {
+  display: block;
+  width: 100%;
+  height: auto;
+}
