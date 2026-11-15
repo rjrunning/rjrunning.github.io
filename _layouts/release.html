@@ -11,16 +11,16 @@
 </p>
 <p>
   {% if page.spotify %}
-    <a href="{{ page.spotify }}" class="fa fa-spotify"></a>
+    <a href="{{ page.spotify }}" class="fa fa-spotify" aria-label="Listen to {{ page.title | escape }} on Spotify"></a>
   {% endif %} 
   {% if page.apple %}
-    <a href="{{ page.apple }}" class="fa fa-apple"></a>
+    <a href="{{ page.apple }}" class="fa fa-apple" aria-label="Listen to {{ page.title | escape }} on Apple Music"></a>
   {% endif %}  
   {% if page.amazon %}
-    <a href="{{ page.amazon }}" class="fa fa-amazon"></a>
+    <a href="{{ page.amazon }}" class="fa fa-amazon" aria-label="Listen to {{ page.title | escape }} on Amazon Music"></a>
   {% endif %}  
   {% if page.youtube %}
-    <a href="{{ page.youtube }}" class="fa fa-youtube"></a>
+    <a href="{{ page.youtube }}" class="fa fa-youtube" aria-label="Listen to {{ page.title | escape }} on YouTube"></a>
   {% endif %}        
 </p>
 
