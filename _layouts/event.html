@@ -5,7 +5,7 @@
 	<img src="assets/images/{{ page.image }}" width="500" height="650" />
 </p>
 <p>
-	{{ page.artist }} - {{ page.type }} - {{ page.event-date }}
+	{{ page.artist }} - {{ page.type }} - {{ page.event-date | date: "%B %-d, %Y" }}
 </p>
 <p>
     --------------------------------------------

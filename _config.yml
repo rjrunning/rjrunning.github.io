@@ -28,3 +28,5 @@ root: /
 
 url: https://bobrunning.com
 baseurl: ""
+
+timezone: America/New_York
