@@ -36,7 +36,7 @@ layout: default
         Book Bob
       </a>
 
-      <a class="button button--secondary" href="{{ '/releases.html' | relative_url }}">
+      <a class="button button--secondary" href="#music">
         Listen
       </a>
     </div>
@@ -44,7 +44,9 @@ layout: default
 </header>
 
 {% include next-show.html %}
-{% include featured-release.html %}
+<div id="music">
+  {% include featured-release.html %}
+</div>
 {% include highlight-video.html %}
 
 <main class="home-main">
