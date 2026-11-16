@@ -555,6 +555,25 @@ header.masthead {
 }
 
 
+/* ---------- Streaming services ---------- */
+
+.streaming-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: $accent;
+    text-underline-offset: 0.25em;
+  }
+}
+
 /* ---------- Booking page ---------- */
 
 .booking-page {

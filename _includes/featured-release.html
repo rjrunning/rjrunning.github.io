@@ -7,11 +7,14 @@
     <p>
       {{ site.data.featured.featured_release.description }}
     </p>
+
+    {% include streaming-links.html release=site.data.featured.featured_release %}
   </div>
 
   <iframe
       style="border-radius:12px"
       src="https://open.spotify.com/embed/{{ site.data.featured.featured_release.spotify_type }}/{{ site.data.featured.featured_release.spotify_id }}"
+      title="Listen to {{ site.data.featured.featured_release.title | escape }} on Spotify"
       width="100%"
       height="352"
       frameborder="0"
