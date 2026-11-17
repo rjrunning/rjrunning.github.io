@@ -1,7 +1,7 @@
 ---
 title: About Bob Running
 layout: default
-description: Learn about Bob Running, a Northern Kentucky and Cincinnati solo artist performing gritty Americana from the Banks of the Ohio.
+description: Learn about Bob Running, a Northern Kentucky and Cincinnati solo artist performing outlaw country and Americana.
 permalink: /about.html
 ---
 
@@ -25,8 +25,7 @@ permalink: /about.html
       <h1>Bob Running</h1>
 
       <p class="about-hero__tagline">
-        Gritty Americana<br>
-        <span>from the Banks of the Ohio</span>
+        Outlaw Country &amp; Americana
       </p>
     </div>
   </header>
@@ -36,35 +35,37 @@ permalink: /about.html
       <p class="section-kicker">The story</p>
 
       <h2>
-        Songs shaped by river towns, back roads, and lives lived between them.
+        Songs from everyday life.
       </h2>
     </div>
 
     <div class="about-story__body">
       <p class="about-story__lead">
-        Bob Running is a Northern Kentucky and Cincinnati-based solo artist
-        blending gritty Americana with country roots, blues soul, and
-        rock-and-roll heart.
+        I play outlaw country and Americana—a mix of my own songs and covers.
+        I grew up in Central Florida and started playing guitar as a teenager,
+        though I was making up songs in my head before I knew how to play.
+        Northern Kentucky has been home for the past 30 years.
       </p>
 
       <p>
-        His songs draw from the character of the Ohio River Valley, where
-        old neighborhoods, working towns, bridges, taverns, and back roads
-        provide both setting and subject. The music carries the storytelling
-        tradition of country, the weight of the blues, and the restless pulse
-        of American rock.
+        I played in rock bands in the ’80s, but acoustic music has always been
+        part of what I do. Johnny Cash, Waylon Jennings, and Willie Nelson are
+        big influences, along with Chris Stapleton and Tyler Childers. So are
+        Jimi Hendrix and Led Zeppelin. I’ve always admired artists who do
+        things their own way.
       </p>
 
       <p>
-        Performing solo, Bob favors honest arrangements, expressive guitar
-        work, and songs that leave room for the words to breathe. His live
-        shows move between original material and carefully chosen songs from
-        the American roots tradition.
+        My songs tend to come from everyday life and hard times. An interesting
+        phrase is usually where a song starts. “Corner Store” draws on details
+        from my own childhood. The store I grew up with is still there, though
+        it’s no longer a mom-and-pop place. In the song, it’s gone. Some details
+        come straight from life; others change as the song takes shape.
       </p>
 
       <p>
-        The result is music that feels lived-in rather than polished smooth:
-        road-worn, reflective, and grounded in place.
+        I still enjoy coming up with new musical ideas. That’s what keeps me
+        writing and playing.
       </p>
     </div>
   </section>
@@ -74,9 +75,7 @@ permalink: /about.html
       <p class="section-kicker">The sound</p>
 
       <h2>
-        Country roots.<br>
-        Blues soul.<br>
-        Rock-and-roll heart.
+        Outlaw Country &amp; Americana
       </h2>
     </div>
 
@@ -94,7 +93,7 @@ permalink: /about.html
 
         <div>
           <dt>Style</dt>
-          <dd>Americana, country, blues, and rock</dd>
+          <dd>Outlaw country and Americana</dd>
         </div>
       </dl>
     </div>
@@ -104,10 +103,10 @@ permalink: /about.html
     <div>
       <p class="section-kicker">Live performance</p>
 
-      <h2>Bring gritty Americana to your venue.</h2>
+      <h2>Bring outlaw country and Americana to your venue.</h2>
 
       <p>
-        Bob is available for taverns, breweries, restaurants, listening
+        I’m available for taverns, breweries, restaurants, listening
         rooms, festivals, songwriter showcases, and private events.
       </p>
     </div>
