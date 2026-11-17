@@ -1,0 +1,17 @@
+{% assign release = include.release %}
+{% assign services = 'spotify,apple,amazon,youtube' | split: ',' %}
+{% assign names = 'Spotify,Apple Music,Amazon Music,YouTube' | split: ',' %}
+{% capture streaming_items %}
+  {% for service in services %}
+    {% assign destination = release[service] %}
+    {% if destination and destination != empty %}
+      <li>
+        <a href="{{ destination | escape }}" aria-label="Listen to {{ release.title | escape }} on {{ names[forloop.index0] }}">{{ names[forloop.index0] }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+{% assign streaming_items = streaming_items | strip %}
+{% if streaming_items != empty %}
+  <ul class="streaming-links">{{ streaming_items }}</ul>
+{% endif %}
